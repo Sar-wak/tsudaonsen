@@ -1,4 +1,4 @@
-
+@charset "utf-8";
 body {
   font-family: 'Noto Sans JP', sans-serif;
   font-family: 'Noto Serif JP', serif;  
@@ -7,7 +7,7 @@ body {
 }
 
 h1{
-  font-size: 38px;
+  font-size: 55px;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -15,6 +15,9 @@ h1{
 header h1 a{
   text-decoration: none;
   color: #000000;
+  padding: 0;
+  -webkit-text-size-adjust: 100%;
+  font-size: 30px;
 }
 
 header h1 a:hover{
@@ -75,7 +78,7 @@ nav ul{
 
 nav li{
   display: inline;
-  font-size: 12px;
+  font-size: 20px;
   border-right: solid 1px #aaaaaa;
   padding-left: 10px;
   padding-right: 10px;
@@ -99,14 +102,6 @@ nav a {
   text-decoration: none;
 }
 
-article * {
-  background-color: inherit;
-}
-
-article time{
-  display: inline-block;
-}
-
 article{
   background-color: #ffffff;
   width: 900px;
@@ -123,16 +118,39 @@ article{
   border-radius:20px;
 }
 
+article h1{
+  font-size: 45px;
+}
+
+article * {
+  background-image: inherit;
+  padding: 0;
+  -webkit-text-size-adjust: 100%;
+  font-size: 25px;
+}
+
+article time{
+  display: inline-block;
+}
+
+
 figure.photo-centure{
   text-align: center;
   margin-top: 30px;
   margin-bottom: 30px;
 }
 
+figcaption{
+  font-size: 20px;
+  -webkit-text-size-adjust: 100%;
+}
+
 footer{
   width: 900px;
   margin-left: auto;
   margin-right:auto;
+  padding: 0;
+  -webkit-text-size-adjust: 100%;
 }
 
 @media screen and (max-width: 899px) {
