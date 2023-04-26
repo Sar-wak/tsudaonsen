@@ -1,4 +1,4 @@
-
+@charset "utf-8";
 body {
   font-family: 'Noto Sans JP', sans-serif;
   font-family: 'Noto Serif JP', serif;  
@@ -7,14 +7,17 @@ body {
 }
 
 h1{
-  font-size: 38px;
   margin-top: 0;
   margin-bottom: 0;
+  font-size: 55px;
 }
 
 header h1 a{
   text-decoration: none;
   color: #000000;
+  padding: 0;
+  -webkit-text-size-adjust: 100%;
+  font-size: 30px;
 }
 
 header h1 a:hover{
@@ -76,7 +79,7 @@ nav ul{
 
 nav li{
   display: inline;
-  font-size: 12px;
+  font-size: 20px;
   border-right: solid 1px #aaaaaa;
   padding-left: 10px;
   padding-right: 10px;
@@ -116,14 +119,21 @@ article{
   border-radius:20px;
 }
 
+section h1{
+  font-size: 45px;
+}
+
 #posts article img{
   float: left;
   size: 15px;
-  margin-right: 20px;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 10px 20px 30px;
 }
 
 #posts article h1{
-  font-size: 20px;
+  font-size: 30px;
 }
 
 #posts article a:hover{
@@ -142,15 +152,19 @@ article{
 }
 
 #posts header{
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 #posts time{
-  font-size: 12px;
+  font-size: 15px;
   color: #ffffff;
   background-color: #bdbc8f;
   border-radius: 10px;
   padding: 2px 20px 2px 20px;
+}
+
+#posts p{
+  font-size: 20px;
 }
 
 figure.photo-centure{
@@ -163,6 +177,8 @@ footer{
   width: 900px;
   margin-left: auto;
   margin-right:auto;
+  padding: 0;
+  -webkit-text-size-adjust: 100%;
 }
 
 @media screen and (max-width: 899px) {
