@@ -1,4 +1,4 @@
-
+@charset "utf-8";
 body {
   font-family: 'Noto Sans JP', sans-serif;
   font-family: 'Noto Serif JP', serif;  
@@ -7,7 +7,7 @@ body {
 }
 
 h1{
-  font-size: 38px;
+  font-size: 55px;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -17,6 +17,8 @@ header h1 a{
   font-family: 'Noto Serif JP', serif;  
   text-decoration: none;
   color: #000000;
+  padding: 0;
+  -webkit-text-size-adjust: 100%;
 }
 
 header h1 a:hover{
@@ -55,7 +57,7 @@ header{
 
 header h1{
   font-family: 'Chango', cursive;
-  font-size: 24px;
+  font-size: 30px;
   width: 900px;
   margin-left: auto;
   margin-right: auto;
@@ -76,7 +78,7 @@ nav ul{
 
 nav li{
   display: inline;
-  font-size: 12px;
+  font-size: 20px;
   border-right: solid 1px #aaaaaa;
   padding-left: 10px;
   padding-right: 10px;
@@ -116,33 +118,38 @@ article{
   border-radius:20px;
 }
 
+article h1{
+  font-size: 45px;
+}
+
+article *{
+  padding: 0;
+  -webkit-text-size-adjust: 100%;
+  font-size: 25px;
+}
+
 figure.photo-centure{
   text-align: center;
   margin-top: 30px;
   margin-bottom: 30px;
 }
 
+figcaption{
+  font-size: 20px;
+  -webkit-text-size-adjust: 100%;
+}
 
 h2{
   clear: both;
   border-bottom: solid 5px #c39f4a;
 }
 
-h3{
-  clear: both;
-  border-bottom: solid 5px #c39f4a;
-}
-
-h4{
-  clear: both;
-  border-bottom: solid 5px #c39f4a;
-}
-
-
 footer{
   width: 900px;
   margin-left: auto;
   margin-right:auto;
+  padding: 0;
+  -webkit-text-size-adjust: 100%;
 }
 
 @media screen and (max-width: 899px) {
