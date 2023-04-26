@@ -1,4 +1,4 @@
-
+@charset "utf-8";
 body {
   font-family: 'Noto Sans JP', sans-serif;
   font-family: 'Noto Serif JP', serif;  
@@ -15,7 +15,7 @@ main{
 h1{
   font-family: 'Noto Sans JP', sans-serif;
   font-family: 'Noto Serif JP', serif;  
-  font-size: 38px;
+  font-size: 55px;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -23,6 +23,9 @@ h1{
 header h1 a{
   text-decoration: none;
   color: #000000;
+  padding: 0;
+  -webkit-text-size-adjust: 100%;
+  font-size: 30px;
 }
 
 header h1 a:hover{
@@ -79,7 +82,7 @@ nav ul{
 
 nav li{
   display: inline;
-  font-size: 12px;
+  font-size: 20px;
   border-right: solid 1px #aaaaaa;
   padding-left: 10px;
   padding-right: 10px;
@@ -134,8 +137,6 @@ nav a {
   text-shadow: 0 5px 10px #000000;
 }
 
-
-
 article,#message{
   background-color: #ffffff;
   width: 900px;
@@ -153,14 +154,17 @@ article,#message{
   overflow: hidden;
 }
 
+section *{
+  padding: 0;
+  -webkit-text-size-adjust: 100%;
+  font-size: 25px;
+}
+
 #photo a{
   background-color: #ffaa00;
-  background-image: -webkit-gradient(
-  linear, left top, left bottom, from(#ffe7b8),to(#ffaa00));
-  background-image: -webkit-linear-gradient(
-  top, #ffe7b8 0%, #ffaa00 100%);
-  background-image: linear-gradient(
-  to bottom, #ffe7b8 0%, #ffaa00 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffe7b8),to(#ffaa00));
+  background-image: -webkit-linear-gradient(top, #ffe7b8 0%, #ffaa00 100%);
+  background-image: linear-gradient(to bottom, #ffe7b8 0%, #ffaa00 100%);
   padding: 10px 80px;
   border-radius: 10px;
   color: #000000;
@@ -168,7 +172,6 @@ article,#message{
   text-decoration: none;
 }
 
-/*お問い合わせ*/
 input, textarea{
   display: block;
 }
@@ -180,12 +183,9 @@ input{
 input[type="submit"]{
   width: 200px;
   background-color: #ffaa00;
-  background-image: -webkit-gradient(
-  linear, left top, left bottom, from(#ffe7b8), to(#ffaa00));
-  background-image: -webkit-gradient(
-  top, #ffe7b8 0%, #ffaa00 100%);
-  background-image: linear-gradient(
-  to bottom, #ffe7b8 0%, #ffaa00 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffe7b8), to(#ffaa00));
+  background-image: -webkit-gradient(top, #ffe7b8 0%, #ffaa00 100%);
+  background-image: linear-gradient(to bottom, #ffe7b8 0%, #ffaa00 100%);
   border:solid 1px #aaaaaa;
   border-radius: 10px;
   padding-top: 10px;
@@ -207,6 +207,8 @@ footer{
   width: 900px;
   margin-left: auto;
   margin-right:auto;
+  padding: 0;
+  -webkit-text-size-adjust: 100%;
 }
 
 @media screen and (max-width: 899px) {
